@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+table{
+ width:30%;
+ font-weight:500;
+ color:#333;
+ float:left;
+ /*background:black;*/
+ margin:0;
+ border-right:1px dashed #CCC;
+}
+
+table td{
+ padding:10px 0;
+ padding-left:15px;
+ margin:0 5px;
+ width:28%;
+ background:none;
+}
+
+table td.heading1{padding-left:5px;}
+
+table td.heading1 a{
+	color:#333;
+	border-left-width:3px;
+}
+
+table td.heading2{padding-left:10px;}
+
+table td.heading2 a{
+	color:#666;
+	border-left-width:2px;	
+}
+
+@font-face {
+ font-family: custy;
+ src: url(path/to/my/font);
+}
+
+table a{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#4A4A4A;
+	padding:0px 5px;
+	border-left:2px solid #005B7F;
+}
+
+table td:hover{
+	/*padding-left:20px;*/
+}

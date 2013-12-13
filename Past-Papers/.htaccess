@@ -1,0 +1,7 @@
+RewriteBase /Past-Papers/
+Options +FollowSymLinks
+IndexIgnore */*
+# Turn on the RewriteEngine
+RewriteEngine On
+#  Rules
+RewriteRule . index.php

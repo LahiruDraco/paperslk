@@ -1,0 +1,183 @@
+ @font-face {
+ font-family: 'Puritan20Italic';
+ src: url('../fonts/puritan_italic-webfont.eot?') format('eot'),  url('../fonts/puritan_italic-webfont.woff') format('woff'),  url('../fonts/puritan_italic-webfont.ttf') format('truetype'),  url('../fonts/puritan_italic-webfont.svg#webfontZMWmRIPG') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'Puritan20Normal';
+ src: url('../fonts/puritan_regular-webfont.eot?') format('eot'),  url('../fonts/puritan_regular-webfont.woff') format('woff'),  url('../fonts/puritan_regular-webfont.ttf') format('truetype'),  url('../fonts/puritan_regular-webfont.svg#webfontJ25dHiGv') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: h2font;
+ src: url('../fonts/BebasNeue.otf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family:h3font;
+ src:url('../fonts/Origin-ExtraBold.ttf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: pfont;
+ src:url('../fonts/Antipasto_regular.otf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: Nick;
+ src:url('../fonts/nick.ttf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+	margin:0px; padding:0px;  
+	font-family: h2font; 
+	font-size:36px; 
+	color:#000000; line-height:38px; 
+	font-weight:normal;
+	}
+
+h3{
+	margin:9px 0 0 0; padding:0px; 
+	font-family:h3font;
+	font-size:13px;
+	color:#005b7f; 
+	line-height:18px; 
+	}
+	
+p{margin:16px 5px 0 0; padding:0px;  font-family:arial; font-size:13px; color:#4A4A4A; line-height:18px}
+
+table{font-family:Arial; 
+	width:95%;
+	margin-top:10px; margin-right:10px;
+	border-collapse:collapse;}
+	 
+hr{
+	color:#c6d09d;
+	height:1px;
+	border:none;
+	border-top:1px solid;
+}
+
+a{
+	text-decoration:none;
+}
+
+#headWrap{
+	width:100%; 
+	height:315px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	background:#999;
+}
+
+#headpanel{width:1000px; height:315px; margin:0 auto; padding:0px; background:url('../images/banner21.jpg') no-repeat;}
+
+#menu{
+	margin-top:280px;
+	margin-left:25px;
+	padding:0 5px;
+	float:left;
+	background-color:#005B7F;
+	border-top-right-radius:5px;
+	
+}
+/*#menu ul{margin:0px; padding:0px; display:block;
+
+}
+#menu ul li{ margin-top:10px; padding:0 10px; height:40px; float:left; list-style-type:none;}
+
+#menu ul li a{width:18px;font-family:Tahoma, Geneva, sans-serif; font-size:16px; 
+color:#ccc; line-height:18px; text-decoration:none; padding-bottom:5px;}
+
+#menu ul li a:hover{
+ border-bottom:2px solid white;	
+}*/
+
+#contentWrap{width:100%; margin:0px; padding:0px; float:left;
+/*box-shadow: 1px 10px 15px #fff;.
+background:#fffcd5 url(images/contentBg.jpg) repeat-x;*/
+background:whitesmoke;
+   /*-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;*/
+}
+
+#contentPanel{width:1000px; margin:0px auto; padding-top:20px;
+ background:url(../images/content_border.png);
+}
+
+#contentPanel>div{margin:0px 20px; margin-left:35px;}
+
+#leftPanel{width:30%; margin:0 0 0 0; padding:0 0 34px 0; /*border-right:#c6d09d solid 1px;*/ float:left;}
+
+#leftPanel h2{ margin:0px; padding:0px; color:#000000;}
+
+#leftPanel h3{ margin:5px 5px 0 0; padding:0px;color:#005b7f;}
+
+#leftPanel p{ margin:10px 10px 0 0; padding:0px; }
+
+#leftPanel ul{width:224px; margin:8px 0 0 0; padding:0px; display:block}
+
+#leftPanel ul li{width:224px; margin:0px; padding:0px; display:block}
+
+#leftPanel ul li a{width:205px; height:19px; margin:0px; padding:0 0 0 19px; font-family:Arial; font-size:12px; color:#363636; line-height:16px; text-decoration:none; border-bottom:#c6d09d solid 1px; background:url(../images/lisstyle.jpg) no-repeat 0 -18px}
+
+#leftPanel ul li a:hover{color:#c46706;}
+
+#leftPanel>div{
+	margin-top:10px;
+	margin-bottom:20px;	
+}
+
+.adblock{
+	width:95%;
+	height:100px;
+	opacity:0.8;
+	border:2px black dashed;
+}
+
+#middlePanel{margin:0px; width:65%; padding:0 0 38px 25px;  /*border-right:#c6d09d dashed 1px;*/ float:left;}
+#middlePanel p{margin:16px 5px 0 0; padding:0px; color:#4A4A4A;}
+#middlePanel p span{color:#c46706; font-weight:bold}
+/* #middlePanel a{width:75px; height:16px; margin:10px 0 0 0; padding:0px; float:left; font-family:Arial; font-size:10px; color:#000000; line-height:14px; text-align:center; text-decoration:none; border:#bdbcbd solid 1px; background:#FFFFFF} 
+#middlePanel .top a:hover{background:#CCCCCC} */
+
+
+.clearer{
+	clear:both;
+}
+
+
+#footWrap{width:100%; margin:0px; /*padding:0 0 30px 0;*/ float:left;
+background:#999;
+}
+#footPanel{width:1000px; margin:0 auto; padding:0 0 20px 0px; background:url(../images/footer_border.png);}
+#footNav{width:934px; margin:20px 0 0 0; padding:0px; float:left; }
+#footNav ul{width:558px; margin:0 auto; padding:0px; display:block}
+#footNav ul li{width:auto; margin:0px; padding:0px; float:left; display:block}
+#footNav ul li .blank{width:auto; margin:3px 0 0 0; padding:0 10px 0 10px; float:left; font-family:Arial; font-size:12px; 
+line-height:16px; font-weight:bold
+}
+#footNav ul li a{font-family:Arial; font-size:12px; color:#e5df85; line-height:16px; font-weight:bold; text-decoration:none; margin:0px; padding:0px}
+#footNav ul li a:hover{text-decoration:underline}
+#footPanel p{width:934px; margin:12px 0 0 0; padding:0px; float:left; font-family:Arial; font-size:11px; color:#fffcd5; line-height:15px; font-weight:bold; text-align:center}
+#footPanel p a{color:#e5df85; text-decoration:none}
+#footPanel p a:hover{text-decoration:underline}
